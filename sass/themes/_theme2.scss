@@ -1,0 +1,54 @@
+.theme2
+    {
+        background: $LightGray;
+    
+    .calculator{
+        background:$LightGray ;
+    
+        h1,p,span{
+            color: $VeryDarkGrayishYellow;
+        }
+    
+        &__result_container_display{
+        background: $VeryLightGray;
+        color: $VeryDarkGrayishYellow
+    }
+    
+        &__keyboard, #calculator__theme__switch_slider{
+            background: $GrayishRed;
+        }
+    
+        #calculator__theme__switch_slider{
+            background: $LightGray;
+            &::-webkit-slider-thumb{background: $Orange;}
+            &::-webkit-slider-runnable-track{background: $GrayishRed;}
+        }
+        .btn{
+            background: $LightGrayishYellow;
+            color: $DarkGrayishBlue;
+    
+            box-shadow: 0px -4px 0px 0px $DarkGrayishOrange inset;
+            -webkit-box-shadow: 0px -4px 0px 0px $DarkGrayishOrange inset;
+            -moz-box-shadow: 0px -4px 0px 0px $DarkGrayishOrange inset;
+            
+            &:active{
+                box-shadow: none;
+            }
+        
+    
+        &-reset,&-delete{
+            text-transform: uppercase;
+            background: $DarkModerateCyan;
+            color: $White;
+            box-shadow: 0px -4px 0px 0px $VeryDarkCyan inset;
+            -webkit-box-shadow: 0px -4px 0px 0px $VeryDarkCyan inset;
+            -moz-box-shadow: 0px -4px 0px 0px $VeryDarkCyan inset;
+        }
+    &-equals{
+         background: $Orange;
+         color: $White;
+         box-shadow: 0px -4px 0px 0px $DarkOrange inset;
+            -webkit-box-shadow: 0px -4px 0px 0px $DarkOrange inset;
+            -moz-box-shadow: 0px -4px 0px 0px $DarkOrange inset;
+    }}
+    }}

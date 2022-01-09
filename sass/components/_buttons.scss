@@ -1,0 +1,24 @@
+.btn-reset{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.btn-equals{
+    grid-row-start: 5;
+    grid-row-end: 6;
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
+
+.btn{
+    -webkit-appearance: none;
+    cursor: pointer;
+    padding-top: 1.5rem;
+    border: none;
+    padding-bottom: 1.5rem;
+    border-radius: 0.8rem;
+&:active{
+    transform: translateY(0.2rem);
+}
+}

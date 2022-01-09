@@ -1,0 +1,33 @@
+*{
+    font-family: 'Spartan', sans-serif;
+    font-weight: 700;
+}
+
+.calculator{
+    &__result_container_display{
+        text-align: end;
+        font-size: 4.2rem;
+        font-weight: 700;
+    }
+
+.btn:not(.btn-reset):not(.btn-delete):not(.btn-equals), h1{
+    font-size: 3.2rem;
+    font-weight: 700;
+}
+.btn-delete, .btn-reset, .btn-equals{
+    font-size: 1.6rem;
+}
+
+p, .btn-delete, .btn-reset{
+text-transform: uppercase;
+
+}
+p, span{
+    font-weight: 700;
+    font-size:1.4rem;
+}}
+
+#error-text{
+    color:  $Red;
+    font-size: 1.2rem;
+}

@@ -1,0 +1,53 @@
+.theme3{
+    background: $mainVeryDarkViolet;
+
+.calculator{
+    background:$mainVeryDarkViolet ;
+
+    h1,p,span{
+        color: $LightYellow;
+    }
+
+    &__result_container_display{
+    background: $secondaryVeryDarkViolet;
+    color: $LightYellow;
+}
+
+    &__keyboard, #calculator__theme__switch_slider{
+        background: $secondaryVeryDarkViolet;
+    }
+
+    #calculator__theme__switch_slider{
+        background: $mainVeryDarkViolet;
+        &::-webkit-slider-thumb{background: $PureCyan;}
+        &::-webkit-slider-runnable-track{background: $secondaryVeryDarkViolet;}
+    }
+    .btn{
+        background: $VeryDarkViolet;
+        color: $LightYellow;
+
+        box-shadow: 0px -4px 0px 0px $DarkMagenta inset;
+        -webkit-box-shadow: 0px -4px 0px 0px $DarkMagenta inset;
+        -moz-box-shadow: 0px -4px 0px 0px $DarkMagenta inset;
+        
+        &:active{
+            box-shadow: none;
+        }
+    
+
+    &-reset,&-delete{
+        text-transform: uppercase;
+        background: $DarkViolet;
+        color: $White;
+        box-shadow: 0px -4px 0px 0px $VividMagenta inset;
+        -webkit-box-shadow: 0px -4px 0px 0px $VividMagenta inset;
+        -moz-box-shadow: 0px -4px 0px 0px $VividMagenta inset;
+    }
+&-equals{
+     background: $PureCyan;
+     color: $VeryDarkBlue;
+     box-shadow: 0px -4px 0px 0px $SoftCyan inset;
+        -webkit-box-shadow: 0px -4px 0px 0px $SoftCyan inset;
+        -moz-box-shadow: 0px -4px 0px 0px $SoftCyan inset;
+}}
+}}
